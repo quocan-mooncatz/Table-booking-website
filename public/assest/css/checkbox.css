@@ -1,0 +1,23 @@
+  .select-size input[type="checkbox"] {
+    display: none;
+  }
+
+  .select-size label {
+    border-radius: .5rem;
+    margin-right: 5px;
+    font-size: medium;
+    display: inline-block;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 50px;
+    cursor: pointer;
+  }
+
+  .select-size input[type="checkbox"]:checked + label {
+    background: var(--red); /* Change this to your desired color */
+    color: #ffffff;
+  }
+  .selected-checkbox {
+    background-color: red; /* Chỉnh màu nền cho checkbox đã chọn */
+}
